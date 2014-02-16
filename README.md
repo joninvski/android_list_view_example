@@ -26,4 +26,17 @@ Test
 Code highlights
 ---------------
 
-TODO
+Inflate each element in listView:
+
+		LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		View itemLayout = inflater.inflate(R.layout.todo_item, parent, false);		
+
+
+Add a specific view to the footer of the list
+
+		TextView footerView = null;
+		footerView = (TextView) getLayoutInflater().inflate(
+				R.layout.footer_view, null);
+		this.getListView().addFooterView(footerView);
+
+
