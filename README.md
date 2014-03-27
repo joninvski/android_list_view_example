@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/joninvski/android_list_view_example.svg?branch=master)](https://travis-ci.org/joninvski/android_list_view_example)
+
 Android Basic Fragment Example
 ==============================
 
