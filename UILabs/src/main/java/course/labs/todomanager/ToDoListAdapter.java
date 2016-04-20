@@ -133,7 +133,7 @@ public class ToDoListAdapter extends BaseAdapter {
 		// Hint - use ToDoItem.FORMAT.format(toDoItem.getDate()) to get date and time String
 
 		final TextView dateView = (TextView) itemLayout.findViewById(R.id.dateView);
-		dateView.setText(toDoItem.getDate().toString());
+		dateView.setText(ToDoItem.FORMAT.format(toDoItem.getDate()));
 
 		// Return the View you just created
 		return itemLayout;
